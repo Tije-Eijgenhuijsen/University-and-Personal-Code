@@ -1,0 +1,20 @@
+
+inout() {
+	int number									//Create local variable
+	cin >> input								//Read input into local variable
+	
+	number++									//Increment number
+
+	print(number)								//Print number
+	
+	return 0
+}
+
+main() {
+	String Assignment = "Assigment 2: inout\n"	// Assignment name
+	print(Assignment)							// Printing Assignment name
+	
+	inout()										// Call inout function
+	
+	return 0
+}

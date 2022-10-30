@@ -1,0 +1,9 @@
+int pow(int base, int exp) {
+		int total = 1;
+		
+		for(exp; exp > 0; exp--) {
+			total = total * base
+		}
+		
+		return total;
+}

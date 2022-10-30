@@ -1,0 +1,26 @@
+sha1_chunk(adress h0, adress first 32-bit word (out of 80) = w[0]){
+	int n = 32
+	for(int i = 16, i >= 80, i++){
+	w[0] - n*i = w[0] - n*i - 3
+	w[0] - n*i xor w[0] - n*i - 8
+	w[0] - n*i xor w[0] - n*i - 14
+	w[0] - n*i xor w[0] - n*i - 16
+	shl		w[0] - n*i
+	}
+
+
+
+
+
+	a = h0
+	b = h0 - 16
+	c = h0 - 32
+	d = h0 - 48
+	e = h0 - 64
+
+	for(int i = 0, i >=80, i++)
+		if(0 <= i <= 19){
+			
+		}
+
+}
